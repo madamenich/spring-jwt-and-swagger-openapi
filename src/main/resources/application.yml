@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ams_9th
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password:
+
+#  security:
+#    user:
+#      name: nich
+#      password: 1213
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+    # customise endpoint for Swagger UI
+#    springdoc.swagger-ui.path=/swagger-ui.html
+    # disable default petstore Swagger
+    disable-swagger-default-url: true
+
